@@ -7,12 +7,455 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <header class="svh-100 bg-dark position-relative overflow-hidden">
-            <img class="position-absolute h-100 start-0 translate-middle-x" src="img/barong.png" />
-            <img class="position-absolute w-100 start-100 translate-middle-x" src="img/candi-bentar.png" />
+        <!-- header section -->
+        <header id="home" class="svh-100 position-relative overflow-hidden">
+            <nav id="main-nav" class="position-fixed w-100 top-0 z-3 navbar navbar-expand-lg px-3 transition">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-medium link-primary d-none d-md-block" href="#">Garda Safe Bali</a>
+                    <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link link-primary fw-medium" data-section-id="home" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-primary fw-medium" data-section-id="about" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-primary fw-medium" data-section-id="services" href="#">Our Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-primary fw-medium" data-section-id="blog" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-primary fw-medium" data-section-id="gallery" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-primary fw-medium" data-section-id="contact" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="main-carousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item h-100 active">
+                        <div class="h-100 w-100 bg-black opacity-50 position-absolute"></div>
+                        <div class="position-absolute d-flex flex-column top-50 start-50 translate-middle">
+                            <img src="img/default-logo.png" class="" alt="" />
+                            <div class="text-center lh-sm text-primary fw-bold fs-1">BALI</div>
+                        </div>
+                        <img src="img/2150368767.jpg" class="h-100 w-100 object-fit-cover" />
+                    </div>
+                    <div class="carousel-item h-100">
+                        <div class="h-100 w-100 bg-black opacity-50 position-absolute"></div>
+                        <div class="position-absolute d-flex flex-column top-50 start-50 translate-middle">
+                            <img src="img/default-logo.png" class="" alt="" />
+                            <div class="text-center lh-sm text-primary fw-bold fs-1">BALI</div>
+                        </div>
+                        <img src="img/1679.jpg" class="h-100 w-100 object-fit-cover" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </header>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus ipsum blanditiis doloremque cupiditate alias accusamus nesciunt magnam sit expedita corporis doloribus quasi officia, reprehenderit provident quos iste? Tenetur, officia corrupti.
+        <!-- end of header section -->
+
+        <!-- about section -->
+        <section id="about" class="py-5">
+            <h2 class="text-center pt-5">ABOUT US</h2>
+            <div class="sub-separator my-4"></div>
+            <div class="container mb-5">
+                <div class="row overflow-hidden g-5 text-center">
+                    <div class="col-12">
+                        <p>GARDA SAFE provide the highest quality integrated security solutions through a dedicated, highly trained and professional team tailoring our service to the clients individual requirements. We want to make our clients feel safe through our security solutions locally, regionally and nationally</p>
+                    </div>
+                    <div class="col-12">
+                        <h4>Our Vision</h4>
+                        <p>To make our clients feel safe through our security solutions locally, regionally, and nationally. To be recognized as the leading integrated safety solution provider, raising standards of safety, courtesy and efficiency to the benefit of our clients, staff and the community.</p>
+                    </div>
+                    <div class="col-12">
+                        <h4>Our Mission</h4>
+                        <p>To provide the highest quality integrated security solutions through dedicated, highly-trained, partner-oriented security professionals tailoring our service to the client's individual requirements.</p>
+                    </div>
+                    <div class="col-12">
+                        <h4>Philosophy</h4>
+                        <table class="ms-auto me-auto">
+                            <tbody>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">G</div></td>
+                                    <td class="text-start align-top">o the extra mile for our client because client are our most valuable asset.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">A</div></td>
+                                    <td class="text-start align-top">lways listen to our clients wants, needs, and wishes.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">R</div></td>
+                                    <td class="text-start align-top">emember the difference between good and great… doing great means extra effort.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">D</div></td>
+                                    <td class="text-start align-top">o everything cost effectively to make our clients happy.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-4"><div class="px-1 fw-semibold bg-primary rounded-circle">A</div></td>
+                                    <td class="text-start align-top pb-2">lways be proactive rather than reactive to continue service needs.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">S</div></td>
+                                    <td class="text-start align-top">tay aggressively on the “Cutting Edge” of new security technology.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">A</div></td>
+                                    <td class="text-start align-top">lways respond quickly and decisively to each opportunity.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">F</div></td>
+                                    <td class="text-start align-top">irstly, treat every client as if they are the only one…</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-4"><div class="px-1 fw-semibold bg-primary rounded-circle">E</div></td>
+                                    <td class="text-start align-top pb-2">nsure every employee makes direct contributions to our goals.</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">G</div></td>
+                                    <td class="text-start align-top">et creative and think outside of the box and avoid tunnel vision</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-top pb-2"><div class="px-1 fw-semibold bg-primary rounded-circle">S</div></td>
+                                    <td class="text-start align-top">tay and never ever deviate from our commitment to quality</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- services section -->
+        <section id="services" class="py-5 bg-dark text-light">
+            <h2 class="text-center pt-5">OUR SERVICES</h2>
+            <div class="sub-separator my-4"></div>
+            <div class="container mb-5">
+                <div class="row g-5 text-center">
+                    <div class="col-12">
+                        <div class="fw-medium mb-2">Manned Security</div>
+                        <div class="fw-medium mb-2">Security Training</div>
+                        <div class="fw-medium mb-2">Security Consultant</div>
+                        <div class="fw-medium mb-2">Security Systems Suppdives</div>
+                        <div class="fw-medium mb-2">Valuables Security</div>
+                        <div class="fw-medium mb-2">K9 Security Services</div>
+                        <div class="fw-medium mb-2">Medical Treatment & Trauma Centre</div>
+                        <div class="fw-medium mb-2">Medical Suppdives</div>
+                        <div class="fw-medium mb-2">Badiv Property Security</div>
+                        <div class="fw-medium mb-2">Badiv Villa Rental Security</div>
+                        <div class="fw-medium mb-2">First Aid Training</div>
+                        <div class="fw-medium mb-2">Self Defence Training</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- blog section -->
+        <section id="blog" class="py-5">
+            <h2 class="text-center pt-5">BLOG</h2>
+            <div class="sub-separator my-4"></div>
+            <div class="container mb-5">
+                <div class="row g-3 mb-4 text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="position-relative pointer">
+                            <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                                <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                            </div>
+                            <div class="text-nowrap position-absolute bottom-0 w-100 bg-black text-light bg-opacity-75 p-1 small p-lg-3 text-truncate text-center fw-semibold">Blog Title Here</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="position-relative pointer">
+                            <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                                <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                            </div>
+                            <div class="text-nowrap position-absolute bottom-0 w-100 bg-black text-light bg-opacity-75 p-1 small p-lg-3 text-truncate text-center fw-semibold">Blog Title Here</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="position-relative pointer">
+                            <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                                <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                            </div>
+                            <div class="text-nowrap position-absolute bottom-0 w-100 bg-black text-light bg-opacity-75 p-1 small p-lg-3 text-truncate text-center fw-semibold">Blog Title Here</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="position-relative pointer">
+                            <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                                <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                            </div>
+                            <div class="text-nowrap position-absolute bottom-0 w-100 bg-black text-light bg-opacity-75 p-1 small p-lg-3 text-truncate text-center fw-semibold">Blog Title Here</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="position-relative pointer">
+                            <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                                <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                            </div>
+                            <div class="text-nowrap position-absolute bottom-0 w-100 bg-black text-light bg-opacity-75 p-1 small p-lg-3 text-truncate text-center fw-semibold">Blog Title Here</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="position-relative pointer">
+                            <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                                <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                            </div>
+                            <div class="text-nowrap position-absolute bottom-0 w-100 bg-black text-light bg-opacity-75 p-1 small p-lg-3 text-truncate text-center fw-semibold">Blog Title Here</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-primary">More Blog</a>
+                </div>
+            </div>
+        </section>
+        <!-- end of blog section -->
+
+        <!-- gallery section -->
+        <section id="gallery" class="py-5 bg-dark text-light">
+            <h2 class="text-center pt-5">GALLERY</h2>
+            <div class="sub-separator my-4"></div>
+            <div class="container mb-5">
+                <div class="row g-3 mb-4 text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                            <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                            <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                            <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                            <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                            <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ratio ratio-4x3 mb-2 overflow-hidden">
+                            <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of gallery section -->
+
+        <!-- contact section -->
+        <section id="contact" class="py-5">
+            <h2 class="text-center pt-5">CONTACT</h2>
+            <div class="sub-separator my-4"></div>
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <table class="me-auto ms-auto mb-4">
+                            <tbody>
+                                <tr>
+                                    <td class="p-2 align-top text-nowrap"><i class="bi bi-whatsapp"></i> Phone</td>
+                                    <td class="p-2 align-top">:</td>
+                                    <td class="p-2 align-top"><a href="https://wa.me/6282136463883" target="_blank">+6282136463883</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 align-top text-nowrap"><i class="bi bi-envelope"></i> Email</td>
+                                    <td class="p-2 align-top">:</td>
+                                    <td class="p-2 align-top"><a href="mailto:gardasafe88@gmail.com" target="_blank">gardasafe88@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 align-top text-nowrap"><i class="bi bi-geo-alt-fill"></i> Address</td>
+                                    <td class="p-2 align-top">:</td>
+                                    <td class="p-2 align-top"><a href="https://maps.app.goo.gl/hAQBG1wyZv2Bv4KJA" target="_blank">Jl. Sedap Malam Gg. Titi Batu No.88, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80237</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="ratio ratio-16x9 img-thumbnail">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.366780299561!2d115.24941774175468!3d-8.656623343588148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2407034677ea3%3A0xb6beef92c101fc0a!2sJl.%20Sedap%20Malam%20Gg.%20Titi%20Batu%20No.88%2C%20Sumerta%20Kelod%2C%20Kec.%20Denpasar%20Tim.%2C%20Kota%20Denpasar%2C%20Bali%2080237!5e0!3m2!1sen!2sid!4v1716709227140!5m2!1sen!2sid" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+
+        <!-- client section -->
+        <section class="bg-dark py-5">
+            <h2 class="text-center pt-5 text-white">OUR CLIENTS</h2>
+            <div class="sub-separator my-4"></div>
+            <div class="container mb-5">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/jel.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/jfe.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/colliers.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/huawei.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/takenaka.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/tdr.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/zalora.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/hilon.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/payogan.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-4 col-lg-2">
+                        <div class="bg-white p-3 rounded">
+                            <div class="ratio ratio-1x1">
+                                <img src="img/lazada.png" class="object-fit-contain" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of client section -->
+
+        <!-- footer -->
+        <footer class="bg-black py-5 px-1 px-md-2 px-lg-5 text-white">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <img src="img/default-logo.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-6">
+                        <table class="me-auto ms-auto">
+                            <tbody>
+                                <tr>
+                                    <td class="p-2 align-top text-nowrap"><i class="bi bi-whatsapp"></i> Phone</td>
+                                    <td class="p-2 align-top">:</td>
+                                    <td class="p-2 align-top"><a href="https://wa.me/6282136463883" target="_blank">+6282136463883</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 align-top text-nowrap"><i class="bi bi-envelope"></i> Email</td>
+                                    <td class="p-2 align-top">:</td>
+                                    <td class="p-2 align-top"><a href="mailto:gardasafe88@gmail.com" target="_blank">gardasafe88@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2 align-top text-nowrap"><i class="bi bi-geo-alt-fill"></i> Address</td>
+                                    <td class="p-2 align-top">:</td>
+                                    <td class="p-2 align-top"><a href="https://maps.app.goo.gl/hAQBG1wyZv2Bv4KJA" target="_blank">Jl. Sedap Malam Gg. Titi Batu No.88, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80237</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- back to top -->
+        <button type="button" id="back-to-top" class="btn btn-dark bg-black position-fixed z-3 bottom-0 end-0 m-3" style="display: none"><i class="bi bi-chevron-up"></i></button>
+        <!-- end of back to top -->
+
         <script src="js/jquery-3.7.1.min.js"></script>
         <script src="js/bootstrap.bundle.js"></script>
+        <script>
+            function navProperties() {
+                if ($(window).scrollTop() > 350) {
+                    $("#main-nav").addClass("bg-black");
+                    $("#back-to-top").fadeIn();
+                } else {
+                    $("#main-nav").removeClass("bg-black");
+                    $("#back-to-top").fadeOut();
+                }
+            }
+
+            $(document).ready(function () {
+                navProperties();
+                $(window).scroll(function () {
+                    navProperties();
+                });
+
+                $(".nav-link").click(function (e) {
+                    e.preventDefault();
+                    $("html, body").scrollTop($("#" + $(this).data("section-id")).offset().top);
+                });
+
+                $("#back-to-top").click(function () {
+                    $("html, body").scrollTop($("#home").offset().top);
+                });
+            });
+        </script>
     </body>
 </html>
