@@ -18441,6 +18441,10 @@ textarea.form-control-lg {
   height: 100svh;
 }
 
+.svh-100-half {
+  height: 50svh;
+}
+
 .carousel-indicators [data-bs-target] {
   height: 10px;
   width: 10px;

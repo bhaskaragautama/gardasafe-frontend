@@ -183,7 +183,7 @@
             <div class="container mb-5">
                 <div class="row g-3 mb-4 text-center">
                     <div class="col-md-6 col-lg-4">
-                        <div class="position-relative pointer">
+                        <div class="position-relative pointer blog-item">
                             <div class="ratio ratio-4x3 mb-2 overflow-hidden">
                                 <img src="img/WhatsApp Image 2024-05-21 at 15.02.33_04955824.jpg" class="object-fit-cover zoom-hover transition" />
                             </div>
@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="position-relative pointer">
+                        <div class="position-relative pointer blog-item">
                             <div class="ratio ratio-4x3 mb-2 overflow-hidden">
                                 <img src="img/WhatsApp Image 2024-05-21 at 15.02.33_ca9fa133.jpg" class="object-fit-cover zoom-hover transition" />
                             </div>
@@ -199,7 +199,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="position-relative pointer">
+                        <div class="position-relative pointer blog-item">
                             <div class="ratio ratio-4x3 mb-2 overflow-hidden">
                                 <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
                             </div>
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="position-relative pointer">
+                        <div class="position-relative pointer blog-item">
                             <div class="ratio ratio-4x3 mb-2 overflow-hidden">
                                 <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
                             </div>
@@ -215,7 +215,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="position-relative pointer">
+                        <div class="position-relative pointer blog-item">
                             <div class="ratio ratio-4x3 mb-2 overflow-hidden">
                                 <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
                             </div>
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="position-relative pointer">
+                        <div class="position-relative pointer blog-item">
                             <div class="ratio ratio-4x3 mb-2 overflow-hidden">
                                 <img src="img/2150368714.jpg" class="object-fit-cover zoom-hover transition" />
                             </div>
@@ -454,6 +454,10 @@
                 $(".nav-link").click(function (e) {
                     e.preventDefault();
                     $("html, body").scrollTop($("#" + $(this).data("section-id")).offset().top);
+                });
+
+                $(".blog-item").click(function () {
+                    window.location.href = "blog.html";
                 });
 
                 $("#back-to-top").click(function () {

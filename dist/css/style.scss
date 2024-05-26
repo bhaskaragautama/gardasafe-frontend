@@ -53,6 +53,10 @@ a {
     height: 100svh;
 }
 
+.svh-100-half {
+    height: calc(100svh / 2);
+}
+
 .carousel-indicators [data-bs-target] {
     @extend .rounded-circle, .ms-1, .me-1;
     height: 10px;
